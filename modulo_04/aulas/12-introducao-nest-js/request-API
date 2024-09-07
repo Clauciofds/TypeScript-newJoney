@@ -1,0 +1,125 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Introducao-nestJS",
+    "collectionId": "74594583-1286-4318-b27b-3b7a48999278",
+    "dateExported": "2024-09-07T17:43:32.561Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "47fd3780-e995-43a6-af65-dcd263c2404b",
+            "colId": "74594583-1286-4318-b27b-3b7a48999278",
+            "containerId": "",
+            "name": "Create authors",
+            "url": "{{urlBase}}/authors/create",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-02T23:13:05.272Z",
+            "modified": "2024-09-06T23:04:15.371Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Nicolas\",\n  \"email\": \"nicoll@email.com\",\n  \"bio\": \"Aluno\",\n  \"country\": \"BR\",\n  \"cpf\": \"12345678901\"\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "237366de-a1f6-44e9-aaa2-a6a6bfd66c3f",
+            "colId": "74594583-1286-4318-b27b-3b7a48999278",
+            "containerId": "",
+            "name": "Create Categories",
+            "url": "{{urlBase}}/categories/create",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-09-05T16:32:30.193Z",
+            "modified": "2024-09-05T22:23:22.214Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"names\": [\n    \"abc\",\n    \"abcd\",\n    \"abcde\",\n    \"abcdef\",\n    \"abcdefg\",\n    \"abcdefgh\",\n    \"abcdefghi\",\n    \"abcdefghij\"\n    ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7b5e6cdc-97e5-42c3-a2b8-8c9b862c3cff",
+            "colId": "74594583-1286-4318-b27b-3b7a48999278",
+            "containerId": "",
+            "name": "Create post",
+            "url": "{{urlBase}}/posts/create",
+            "method": "POST",
+            "sortNum": 17500,
+            "created": "2024-09-07T16:20:17.528Z",
+            "modified": "2024-09-07T17:24:36.984Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Começam as Paraolimpiadas\",\n  \"content\": \"Nosso atletas estão felizes e muito bem preparados\",\n  \"author_id\": 1,\n  \"postCategory\": [\n        \"c2d98505-d7f5-49bf-854c-6cad9800c63f\",\n        \"1af00166-6514-4071-b9fe-0c64d728af77\",\n        \"123\"\n    ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7395c501-41fb-4cb6-9299-98f3cf9f0c56",
+            "colId": "74594583-1286-4318-b27b-3b7a48999278",
+            "containerId": "",
+            "name": "Get authors",
+            "url": "{{urlBase}}/authors",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-03T15:27:57.414Z",
+            "modified": "2024-09-03T22:44:10.678Z",
+            "headers": []
+        },
+        {
+            "_id": "e3f4c564-49b2-4935-b590-783613a892c1",
+            "colId": "74594583-1286-4318-b27b-3b7a48999278",
+            "containerId": "",
+            "name": "Delete Category",
+            "url": "{{urlBase}}/categories/delete",
+            "method": "DELETE",
+            "sortNum": 25000,
+            "created": "2024-09-05T18:03:03.496Z",
+            "modified": "2024-09-05T18:47:08.241Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Colinária\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "22725266-457c-4a46-a213-21726835e4a2",
+            "colId": "74594583-1286-4318-b27b-3b7a48999278",
+            "containerId": "",
+            "name": "Categories show",
+            "url": "{{urlBase}}/categories/pagination",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-09-05T22:43:10.100Z",
+            "modified": "2024-09-05T23:05:44.369Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"abc\",\n  \"page\": 1,\n  \"size\": 6,\n  \"orderDirection\": \"desc\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "190bd5fe-38d6-4c53-8953-8daa0950d27f",
+            "colId": "74594583-1286-4318-b27b-3b7a48999278",
+            "containerId": "",
+            "name": "Get Categories",
+            "url": "{{urlBase}}/categories",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-09-04T00:00:45.168Z",
+            "modified": "2024-09-04T00:03:15.780Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"names\": [\n    \"Noticias\",\n    \"Esportes\",\n    \"Variedades\"\n    ]\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "l-GgYAsE_79WVT3cc8nfgM_3KRLEl--2acfM5QGDgm68NhxOqc-kGL1JqYHU3OIk3KQmw5a7jBuPo1TBFB0ryg"
+}
