@@ -1,0 +1,4 @@
+.env
+data
+nodemodules
+docker-compose
