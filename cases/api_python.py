@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 
 
-genai.configure(api_key='AIzaSyC-77mz_vIHY7skKwLYg0jzCRnL5eWiKRk')
+genai.configure(api_key='')
 #genai.configure(api_key=GOOGLE_API_KEY)
 
 for m in genai.list_models():
